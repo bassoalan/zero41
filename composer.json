@@ -1,0 +1,30 @@
+{
+	"description": "E-commerse de produtos automotivos",
+	"name": "zero41 Store",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Alan R. Basso",
+			"role": "Developer"
+		}
+	],
+	"homepage": "https://zero41store.com.br",
+	"require-dev": {
+		"twbs/bootstrap": "4.1.1",
+		"components/jquery": "3.2.1",
+		"font-awesome-archive": "*"
+	},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "font-awesome-archive",
+				"version": "4.7.0",
+				"dist": {
+					"url": "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+					"type": "file"
+				}
+			}
+		}
+	]
+}
